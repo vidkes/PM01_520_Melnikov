@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ec9ea730ca2e4ec48fe268e66255498e" Name="Diagram1">
+        <EntityTypeShape EntityType="Modell.City" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Modell.Country" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Modell.Events" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Modell.Jury" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="Modell.Moderators" Width="1.5" PointX="6" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="Modell.Organizers" Width="1.5" PointX="3" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Modell.Participants" Width="1.5" PointX="3" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Modell.Specialities" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Modell.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="Modell.FK_Events_City" ManuallyRouted="false" />
+        <AssociationConnector Association="Modell.FK_Jury_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Modell.FK_Moderators_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Modell.FK_Organizers_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Modell.FK_Participants_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Modell.FK_Jury_Specialities" ManuallyRouted="false" />
+        <AssociationConnector Association="Modell.FK_Moderators_Specialities" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
